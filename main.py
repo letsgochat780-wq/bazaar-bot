@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 import random
 
-TOKEN = "PASTE_YOUR_TOKEN_HERE"
+TOKEN = "8768172100:AAHcscseMNoPfgdumx_nAEFR-B1HzfRBboM"
 
 episodes = [
     "🟣 Episode 1: The Bazaar Awakens...",
