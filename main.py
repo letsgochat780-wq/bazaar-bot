@@ -1,8 +1,9 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 import random
+import os
 
-TOKEN = "8768172100:AAHcscseMNoPfgdumx_nAEFR-B1HzfRBboM"
+TOKEN = os.getenv("BOT_TOKEN")
 
 episodes = [
     "🟣 Episode 1: The Bazaar Awakens...",
